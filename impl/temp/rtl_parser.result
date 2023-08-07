@@ -9,19 +9,83 @@
  },
  {
   "InstFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/top.v",
-  "InstLine" : 12,
+  "InstLine" : 276,
   "InstName" : "top",
   "ModuleFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/top.v",
-  "ModuleLine" : 12,
+  "ModuleLine" : 276,
   "ModuleName" : "top",
   "SubInsts" : [
    {
     "InstFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/top.v",
-    "InstLine" : 50,
+    "InstLine" : 303,
+    "InstName" : "mydatabankdemux",
+    "ModuleFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/top.v",
+    "ModuleLine" : 214,
+    "ModuleName" : "databankdemux"
+   },
+   {
+    "InstFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/top.v",
+    "InstLine" : 332,
     "InstName" : "blockmem_src",
     "ModuleFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/gowin_dpb/gowin_dpb_8k.v",
     "ModuleLine" : 10,
     "ModuleName" : "Gowin_DPB_8k"
+   },
+   {
+    "InstFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/top.v",
+    "InstLine" : 352,
+    "InstName" : "buffer_src",
+    "ModuleFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/top.v",
+    "ModuleLine" : 5,
+    "ModuleName" : "inputbuffer"
+   },
+   {
+    "InstFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/top.v",
+    "InstLine" : 387,
+    "InstName" : "blockmem_key",
+    "ModuleFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/gowin_dpb/gowin_dpb_8k.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_DPB_8k"
+   },
+   {
+    "InstFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/top.v",
+    "InstLine" : 407,
+    "InstName" : "buffer_key",
+    "ModuleFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/top.v",
+    "ModuleLine" : 5,
+    "ModuleName" : "inputbuffer"
+   },
+   {
+    "InstFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/top.v",
+    "InstLine" : 441,
+    "InstName" : "blockmem_cmd",
+    "ModuleFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/gowin_dpb/gowin_dpb_8k.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_DPB_8k"
+   },
+   {
+    "InstFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/top.v",
+    "InstLine" : 461,
+    "InstName" : "buffer_cmd",
+    "ModuleFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/top.v",
+    "ModuleLine" : 5,
+    "ModuleName" : "inputbuffer"
+   },
+   {
+    "InstFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/top.v",
+    "InstLine" : 495,
+    "InstName" : "blockmem_dst",
+    "ModuleFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/gowin_dpb/gowin_dpb_8k.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_DPB_8k"
+   },
+   {
+    "InstFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/top.v",
+    "InstLine" : 515,
+    "InstName" : "buffer_dst",
+    "ModuleFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/top.v",
+    "ModuleLine" : 105,
+    "ModuleName" : "outputbuffer"
    }
   ]
  }

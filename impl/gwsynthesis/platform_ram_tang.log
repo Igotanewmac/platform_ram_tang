@@ -3,20 +3,55 @@ Running parser ...
 Analyzing Verilog file 'C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\gowin_dpb\gowin_dpb_8k.v'
 Analyzing Verilog file 'C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\gowin_sp\gowin_sp_32k.v'
 Analyzing Verilog file 'C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v'
-Compiling module 'top'("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":12)
+Compiling module 'top'("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":276)
+Compiling module 'databankdemux'("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":214)
 Compiling module 'Gowin_DPB_8k'("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\gowin_dpb\gowin_dpb_8k.v":10)
-WARN  (EX1998) : Net 'wire_mem_src_clkb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":39)
-WARN  (EX1998) : Net 'wire_mem_src_oceb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":40)
-WARN  (EX1998) : Net 'wire_mem_src_ceb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":41)
-WARN  (EX1998) : Net 'wire_mem_src_resetb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":42)
-WARN  (EX1998) : Net 'wire_mem_src_wreb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":43)
-WARN  (EX1998) : Net 'wire_mem_src_adb[12]' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":46)
-WARN  (EX1998) : Net 'wire_mem_src_dinb[7]' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":47)
+Compiling module 'inputbuffer'("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":5)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":80)
+Compiling module 'outputbuffer'("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":105)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":189)
+WARN  (EX1998) : Net 'wire_mem_src_ocea' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":318)
+WARN  (EX1998) : Net 'wire_mem_src_reseta' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":320)
+WARN  (EX1998) : Net 'wire_mem_src_clkb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":322)
+WARN  (EX1998) : Net 'wire_mem_src_oceb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":323)
+WARN  (EX1998) : Net 'wire_mem_src_ceb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":324)
+WARN  (EX1998) : Net 'wire_mem_src_resetb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":325)
+WARN  (EX1998) : Net 'wire_mem_src_wreb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":326)
+WARN  (EX1998) : Net 'wire_mem_src_adb[12]' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":329)
+WARN  (EX1998) : Net 'wire_mem_src_dinb[7]' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":330)
+WARN  (EX1998) : Net 'wire_mem_key_ocea' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":373)
+WARN  (EX1998) : Net 'wire_mem_key_reseta' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":375)
+WARN  (EX1998) : Net 'wire_mem_key_clkb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":377)
+WARN  (EX1998) : Net 'wire_mem_key_oceb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":378)
+WARN  (EX1998) : Net 'wire_mem_key_ceb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":379)
+WARN  (EX1998) : Net 'wire_mem_key_resetb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":380)
+WARN  (EX1998) : Net 'wire_mem_key_wreb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":381)
+WARN  (EX1998) : Net 'wire_mem_key_adb[12]' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":384)
+WARN  (EX1998) : Net 'wire_mem_key_dinb[7]' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":385)
+WARN  (EX1998) : Net 'wire_mem_cmd_ocea' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":427)
+WARN  (EX1998) : Net 'wire_mem_cmd_reseta' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":429)
+WARN  (EX1998) : Net 'wire_mem_cmd_clkb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":431)
+WARN  (EX1998) : Net 'wire_mem_cmd_oceb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":432)
+WARN  (EX1998) : Net 'wire_mem_cmd_ceb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":433)
+WARN  (EX1998) : Net 'wire_mem_cmd_resetb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":434)
+WARN  (EX1998) : Net 'wire_mem_cmd_wreb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":435)
+WARN  (EX1998) : Net 'wire_mem_cmd_adb[12]' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":438)
+WARN  (EX1998) : Net 'wire_mem_cmd_dinb[7]' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":439)
+WARN  (EX1998) : Net 'wire_mem_dst_reseta' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":483)
+WARN  (EX1998) : Net 'wire_mem_dst_clkb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":485)
+WARN  (EX1998) : Net 'wire_mem_dst_oceb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":486)
+WARN  (EX1998) : Net 'wire_mem_dst_ceb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":487)
+WARN  (EX1998) : Net 'wire_mem_dst_resetb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":488)
+WARN  (EX1998) : Net 'wire_mem_dst_wreb' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":489)
+WARN  (EX1998) : Net 'wire_mem_dst_dina[7]' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":491)
+WARN  (EX1998) : Net 'wire_mem_dst_adb[12]' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":492)
+WARN  (EX1998) : Net 'wire_mem_dst_dinb[7]' does not have a driver("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":493)
 NOTE  (EX0101) : Current top module is "top"
+WARN  (EX0211) : The output port "external_isfinished" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":282)
 [5%] Running netlist conversion ...
-WARN  (CV0016) : Input external_data_in is unused("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":13)
-WARN  (CV0016) : Input external_data_bank is unused("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":15)
-WARN  (CV0016) : Input external_data_clock is unused("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":16)
+WARN  (CV0016) : Input external_data_in is unused("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":277)
+WARN  (CV0016) : Input external_data_bank is unused("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":279)
+WARN  (CV0016) : Input external_execute is unused("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":281)
 Running device independent optimization ...
 [10%] Optimizing Phase 0 completed
 [15%] Optimizing Phase 1 completed
@@ -32,6 +67,13 @@ Running technical mapping ...
 [75%] Tech-Mapping Phase 2 completed
 [80%] Tech-Mapping Phase 3 completed
 [90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "Gowin_DPB_8k" instantiated to "blockmem_cmd" is swept in optimizing("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":458)
+WARN  (NL0002) : The module "Gowin_DPB_8k" instantiated to "blockmem_key" is swept in optimizing("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":404)
+WARN  (NL0002) : The module "Gowin_DPB_8k" instantiated to "blockmem_src" is swept in optimizing("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":349)
+WARN  (NL0002) : The module "inputbuffer" instantiated to "buffer_cmd" is swept in optimizing("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":470)
+WARN  (NL0002) : The module "inputbuffer" instantiated to "buffer_key" is swept in optimizing("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":416)
+WARN  (NL0002) : The module "inputbuffer" instantiated to "buffer_src" is swept in optimizing("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":361)
+WARN  (NL0002) : The module "databankdemux" instantiated to "mydatabankdemux" is swept in optimizing("C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\src\top.v":309)
 [95%] Generate netlist file "C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\impl\gwsynthesis\platform_ram_tang.vg" completed
 [100%] Generate report file "C:\Users\james\OneDrive\verilog\hardware_accel\platform_ram\platform_ram_tang\impl\gwsynthesis\platform_ram_tang_syn.rpt.html" completed
 GowinSynthesis finish
