@@ -1,0 +1,28 @@
+[
+ {
+  "InstFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/gowin_sp/gowin_sp_32k.v",
+  "InstLine" : 10,
+  "InstName" : "Gowin_SP_32k",
+  "ModuleFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/gowin_sp/gowin_sp_32k.v",
+  "ModuleLine" : 10,
+  "ModuleName" : "Gowin_SP_32k"
+ },
+ {
+  "InstFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/top.v",
+  "InstLine" : 12,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/top.v",
+  "ModuleLine" : 12,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/top.v",
+    "InstLine" : 50,
+    "InstName" : "blockmem_src",
+    "ModuleFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/gowin_dpb/gowin_dpb_8k.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_DPB_8k"
+   }
+  ]
+ }
+]

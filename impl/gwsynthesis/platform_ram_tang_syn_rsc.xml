@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="18" Lut="30">
+    <SubModule name="blockmem_src" Bsram="4"/>
+</Module>

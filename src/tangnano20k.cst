@@ -1,0 +1,46 @@
+IO_LOC  "external_reset" 72;
+
+IO_LOC  "external_isfinished" 77;
+
+IO_LOC  "external_execute" 27;
+
+IO_LOC  "external_data_clock" 49;
+
+IO_LOC  "external_data_bank[1]" 79;
+
+IO_LOC  "external_data_bank[0]" 86;
+
+IO_LOC  "external_data_out[7]" 48;
+
+IO_LOC  "external_data_out[6]" 51;
+
+IO_LOC  "external_data_out[5]" 74;
+
+IO_LOC  "external_data_out[4]" 73;
+
+IO_LOC  "external_data_out[3]" 41;
+
+IO_LOC  "external_data_out[2]" 42;
+
+IO_LOC  "external_data_out[1]" 80;
+
+IO_LOC  "external_data_out[0]" 76;
+
+IO_LOC  "external_data_in[7]" 75;
+
+IO_LOC  "external_data_in[6]" 85;
+
+IO_LOC  "external_data_in[5]" 28;
+
+IO_LOC  "external_data_in[4]" 25;
+
+IO_LOC  "external_data_in[3]" 26;
+
+IO_LOC  "external_data_in[2]" 29;
+
+IO_LOC  "external_data_in[1]" 30;
+
+IO_LOC  "external_data_in[0]" 31;
+
+IO_LOC  "sysclk" 4;
+IO_PORT "sysclk" IO_TYPE=LVCMOS33 PULL_MODE=UP;

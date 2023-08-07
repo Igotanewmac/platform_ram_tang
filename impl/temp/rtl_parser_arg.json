@@ -1,0 +1,24 @@
+{
+ "Files" : [
+  {
+   "Path" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/gowin_dpb/gowin_dpb_8k.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/gowin_sp/gowin_sp_32k.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/src/top.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/james/OneDrive/verilog/hardware_accel/platform_ram/platform_ram_tang/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}
